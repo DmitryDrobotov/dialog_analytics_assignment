@@ -1,0 +1,26 @@
+<!-- Check http://getbootstrap.com/docs/4.1/getting-started/introduction/ to understand how layout works -->
+
+<h2><%= @dialog.name %></h2>
+
+<div class="row">
+  <div class="col-lg-4">
+    Some characteristics go here
+  </div>
+
+  <div class="col-lg-4">
+    Some characteristics go here
+  </div>
+
+  <div class="col-lg-4">
+    <div class="alert alert-danger" role="alert">This is interruption</div>
+    <div class="alert alert-warning" role="alert">This is long break (more than 5 seconds)</div>
+  </div>
+</div>
+
+<hr>
+
+<% @dialog.phrases.each_with_index do |phrase, index| %>
+  <div class="alert" role="alert">
+    <%= phrase.actor %>: <%= phrase.content %>
+  </div>
+<% end %>

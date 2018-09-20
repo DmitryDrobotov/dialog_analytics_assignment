@@ -1,0 +1,44 @@
+<!-- Check http://getbootstrap.com/docs/4.1/getting-started/introduction/ to understand how layout works -->
+
+<div class="row">
+  <div class="col-md-3">
+    <div class="card mb-4">
+      <div class="card-body">
+        <%= search_form_for @q do |f| %>
+          <div class="form-group">
+            <%= f.label :name_cont, 'Name contains' %>
+            <%= f.search_field :name_cont, class: 'form-control' %>
+          </div>
+          <%= f.submit class: 'btn btn-primary' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-9">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col" class="text-right">Duration</th>
+          <th scope="col" class="text-right">Total Phrases</th>
+          <th scope="col" class="text-right">Interruptions</th>
+          <th scope="col" class="text-right">Long Breaks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @dialogs.each_with_index do |dialog, index| %>
+          <tr>
+            <th scope="row"><%= link_to dialog.name, dialog_path(dialog.id) %></th>
+            <td class="text-right"><%= dialog.duration %></td>
+            <td class="text-right"><%= dialog.total_phrases %></td>
+            <td class="text-right"><%= dialog.interruptions %></td>
+            <td class="text-right"><%= dialog.long_breaks %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+

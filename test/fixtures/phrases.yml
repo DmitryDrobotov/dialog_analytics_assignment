@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dialog: one
+  actor: MyString
+  start_in_sec: 1
+  end_in_sec: 1
+  content: MyString
+
+two:
+  dialog: two
+  actor: MyString
+  start_in_sec: 1
+  end_in_sec: 1
+  content: MyString
