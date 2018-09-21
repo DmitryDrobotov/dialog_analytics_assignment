@@ -30,12 +30,19 @@ namespace :csv do
   end
 
   desc "Imports CSV to database"
-  task :import, :csv_file_path do |t, args|
+  task :import, [:csv_file_path] => :environment do |t, args|
     args.with_defaults(csv_file_path: 'extra/dialogs.csv')
 
     csv_file_path = Rails.root.join(args[:csv_file_path])
     CSV.foreach(csv_file_path, headers: :first_row, header_converters: :symbol) do |row|
+      # binding.pry
+      Dialog.find_or_create_by(name: row[:dialog_name]).phrases.create(actor: row[:phrase_actor],
+                                                                       start_in_sec: row[:phrase_start_in_sec],
+                                                                       end_in_sec: row[:phrase_end_in_sec],
+                                                                       content: row[:phrase_content])
 
+      # Phrase.create(actor: row[:phrase_actor], start_in_sec: row[:phrase_start_in_sec],
+      #               end_in_sec: row[:phrase_end_in_sec], content: row[:phrase_content])
       # place import to database code here
 
       putc '.'
