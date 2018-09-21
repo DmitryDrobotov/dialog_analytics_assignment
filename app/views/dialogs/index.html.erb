@@ -20,6 +20,7 @@
       <thead class="thead-dark">
         <tr>
           <th scope="col">Name</th>
+          <th scope="col" class="text-right">Actors</th>
           <th scope="col" class="text-right">Duration</th>
           <th scope="col" class="text-right">Total Phrases</th>
           <th scope="col" class="text-right">Interruptions</th>
@@ -30,6 +31,7 @@
         <% @dialogs.each_with_index do |dialog, index| %>
           <tr>
             <th scope="row"><%= link_to dialog.name, dialog_path(dialog.id) %></th>
+            <td class="text-right"><%= dialog.actors %></td>
             <td class="text-right"><%= dialog.duration %></td>
             <td class="text-right"><%= dialog.total_phrases %></td>
             <td class="text-right"><%= dialog.interruptions %></td>

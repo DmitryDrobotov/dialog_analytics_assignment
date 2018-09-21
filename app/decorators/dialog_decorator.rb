@@ -9,8 +9,12 @@ class DialogDecorator < ApplicationDecorator
   #       object.created_at.strftime("%a %m/%d/%y")
   #     end
   #   end
+  def actors
+    "#{object.phrases.first.actor} and #{object.phrases.second.actor}"
+  end
+
   def duration
-    '00:00:00' # replace with a duration of the dialog
+    object.duration(object)
   end
 
   def total_phrases
@@ -18,7 +22,7 @@ class DialogDecorator < ApplicationDecorator
   end
 
   def interruptions
-    "2 (10%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    object.interruptions(object)
   end
 
   def long_breaks
