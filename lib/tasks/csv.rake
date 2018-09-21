@@ -33,10 +33,12 @@ namespace :csv do
   desc "Imports CSV to database"
   task :import, :csv_file_path  do |t, args|
     args.with_defaults(csv_file_path: 'extra/dialogs.csv')
+    current_dialog = Dialog.new
 
     csv_file_path = Rails.root.join(args[:csv_file_path])
     CSV.foreach(csv_file_path, headers: :first_row, header_converters: :symbol) do |row|
-      Dialog.create!(name: row.first.last)
+      current_dialog = Dialog.create!(name: row[0]) if current_dialog.name != row[0]
+      current_dialog.phrases.create(actor: row[1], start_in_sec: row[2], end_in_sec: row[3], content: row[4])
       putc '.'
     end
     puts
