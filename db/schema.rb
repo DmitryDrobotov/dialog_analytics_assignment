@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2018_09_18_212404) do
     t.string "actor"
     t.integer "start_in_sec"
     t.integer "end_in_sec"
-    t.string "content", limit: 512
+    t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["dialog_id"], name: "index_phrases_on_dialog_id"

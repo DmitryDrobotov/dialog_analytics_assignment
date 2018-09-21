@@ -1,4 +1,5 @@
 require 'csv'
+require "./config/environment.rb"
 
 namespace :csv do
   desc "Generates CSV from extra/dialogs/*.txt files and stores it at extra/dialogs.csv"
@@ -30,17 +31,14 @@ namespace :csv do
   end
 
   desc "Imports CSV to database"
-  task :import, :csv_file_path do |t, args|
+  task :import, :csv_file_path  do |t, args|
     args.with_defaults(csv_file_path: 'extra/dialogs.csv')
 
     csv_file_path = Rails.root.join(args[:csv_file_path])
     CSV.foreach(csv_file_path, headers: :first_row, header_converters: :symbol) do |row|
-
-      # place import to database code here
-
+      Dialog.create!(name: row.first.last)
       putc '.'
     end
-
     puts
   end
 end
