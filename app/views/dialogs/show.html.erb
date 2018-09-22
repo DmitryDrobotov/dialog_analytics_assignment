@@ -4,11 +4,20 @@
 
 <div class="row">
   <div class="col-lg-4">
-    Some characteristics go here
-  </div>
-
-  <div class="col-lg-4">
-    Some characteristics go here
+    <table class="table">
+      <tr>
+        <td>Duration</td>  <td><%= @dialog.duration %></td>
+      </tr>
+      <tr>
+        <td>Total Pdrases</td>  <td><%=@dialog.phrases.length %></td>
+      </tr>
+      <tr>
+        <td>Interruptions</td>  <td><%=@dialog.interruptions %></td>
+      </tr>
+      <tr>
+        <td>Long breaks</td>  <td><%=@dialog.long_breaks %></td>
+      </tr>
+    </table>
   </div>
 
   <div class="col-lg-4">

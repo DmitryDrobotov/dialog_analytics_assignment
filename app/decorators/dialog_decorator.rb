@@ -26,6 +26,6 @@ class DialogDecorator < ApplicationDecorator
   end
 
   def long_breaks
-    "4 (16%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    object.long_breaks(object)
   end
 end

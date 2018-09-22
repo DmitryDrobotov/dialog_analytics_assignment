@@ -3,15 +3,16 @@ class Dialog < ApplicationRecord
   validates :name, presence: true
   
   def interruptions(dialog)
-    count_interrupt = 0
+    interrupt = 0
     dialog.phrases.each do |phrase|
       id = phrase.id + 1
-      if Phrase.find_by(id: id) do
-        count_interrupt += 1 if Phrase.find_by(id: id).start_in_sec >= phrase.end_in_sec
-        end
+      if Phrase.find_by(id: id)
+        interrupt += 1 if Phrase.find_by(id: id).start_in_sec <= phrase.end_in_sec
       end
     end
-    return count_interrupt
+    max_interrupt = dialog.phrases.length - 1
+    percentage = interrupt*100/max_interrupt
+    return "#{interrupt}(#{percentage}%)"
   end
 
   def duration(dialog)
@@ -19,5 +20,16 @@ class Dialog < ApplicationRecord
     Time.at(time).utc.strftime("%H:%M:%S")
   end
 
-  private
+  def long_breaks(dialog)
+    breaks = 0
+    dialog.phrases.each do |phrase|
+      id = phrase.id + 1
+      if Phrase.find_by(id: id)
+        breaks += 1 if (Phrase.find_by(id: id).start_in_sec - 5) < phrase.end_in_sec
+      end
+    end
+    max_breaks = dialog.phrases.length - 1
+    percentage = breaks*100/max_breaks
+    return "#{breaks}(#{percentage}%)"
+  end
 end
