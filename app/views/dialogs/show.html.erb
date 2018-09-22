@@ -6,18 +6,19 @@
   <div class="col-lg-4">
     <table class="table">
       <tr>
-        <td>Duration</td>  <td><%= @dialog.duration %></td>
+        <td scope="col">Duration</td><td class="text-left"><%= @dialog.duration %></td>
       </tr>
       <tr>
-        <td>Total Pdrases</td>  <td><%=@dialog.phrases.length %></td>
+        <td scope="col">Total Pdrases</td><td class="text-left"><%=@dialog.phrases.length %></td>
       </tr>
       <tr>
-        <td>Interruptions</td>  <td><%=@dialog.interruptions %></td>
+        <td scope="col">Interruptions</td><td class="text-left"><%=@dialog.interruptions %></td>
       </tr>
       <tr>
-        <td>Long breaks</td>  <td><%=@dialog.long_breaks %></td>
+        <td scope="col">Long breaks</td><td class="text-left"><%=@dialog.long_breaks %></td>
       </tr>
     </table>
+    <hr>
   </div>
 
   <div class="col-lg-4">
@@ -28,8 +29,20 @@
 
 <hr>
 
-<% @dialog.phrases.each_with_index do |phrase, index| %>
-  <div class="alert" role="alert">
-    <%= phrase.actor %>: <%= phrase.content %>
-  </div>
+<% @dialog.phrases.each do |phrase| %>
+  <% if @dialog.phrases.first == phrase%>
+    <div class="alert" role="alert">
+    <%= phrase.actor %>: <%= phrase.content %></div>
+  <% else %>
+    <% if phrase.interrupt(phrase) %>
+      <div class="alert alert-danger" role="alert" %>
+      <%= phrase.actor %>: <%= phrase.content %> </div>
+    <% elsif phrase.breaks(phrase) %>
+      <div class="alert alert-warning" role="alert">
+      <%= phrase.actor %>: <%= phrase.content %></div>
+    <% else %>
+      <div class="alert" role="alert">
+      <%= phrase.actor %>: <%= phrase.content %></div>
+    <% end %>
+  <% end %>
 <% end %>
