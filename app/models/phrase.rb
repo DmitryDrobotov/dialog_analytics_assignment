@@ -6,34 +6,25 @@ class Phrase < ApplicationRecord
   validates :end_in_sec, presence: true, numericality: { only_integer: true }
   validates :content, presence: true
 
-  def interrupt(phrase)
-    if phrase.befor_phrase(phrase)
-      phrase.befor_phrase(phrase).end_in_sec > phrase.start_in_sec
-    end
+  def interrupted?
+    previous.end_in_sec > start_in_sec if previous
   end
 
-  def breaks(phrase)
-    if phrase.befor_phrase(phrase)
-      phrase.befor_phrase(phrase).end_in_sec < phrase.start_in_sec - 5
-    end
-  end
-  
-  def following_phrase(phrase)
-    id = phrase.id + 1
-    Phrase.find(id)
-  end
-
-  def befor_phrase(phrase)
-    id = phrase.id - 1
-    Phrase.find(id)
+  def long_break?
+    previous.end_in_sec < start_in_sec - 5 if previous
   end
 
   def self.all_actors
-    actors = []
-    Dialog.all.each do |dialog|
-      actors << dialog.phrases.first.actor
-      actors << dialog.phrases.second.actor
-    end
-    actors.uniq!
+    Phrase.pluck(:actor).uniq
+  end
+
+  private
+
+  def following
+    @following ||= dialog.phrases.where("start_in_sec > ?", start_in_sec).first
+  end
+
+  def previous
+    @previous ||= dialog.phrases.where("start_in_sec < ?", start_in_sec).last
   end
 end

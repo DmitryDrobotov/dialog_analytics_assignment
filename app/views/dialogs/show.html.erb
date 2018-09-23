@@ -29,20 +29,6 @@
 
 <hr>
 
-<% @dialog.phrases.each do |phrase| %>
-  <% if @dialog.phrases.first == phrase%>
-    <div class="alert" role="alert">
-    <%= phrase.actor %>: <%= phrase.content %></div>
-  <% else %>
-    <% if phrase.interrupt(phrase) %>
-      <div class="alert alert-danger" role="alert" %>
-      <%= phrase.actor %>: <%= phrase.content %> </div>
-    <% elsif phrase.breaks(phrase) %>
-      <div class="alert alert-warning" role="alert">
-      <%= phrase.actor %>: <%= phrase.content %></div>
-    <% else %>
-      <div class="alert" role="alert">
-      <%= phrase.actor %>: <%= phrase.content %></div>
-    <% end %>
-  <% end %>
+<% @phrases.each do |phrase| %>
+  <%= phrase.colored_phrase %>
 <% end %>

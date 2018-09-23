@@ -8,5 +8,6 @@ class DialogsController < ApplicationController
 
   def show
     @dialog = Dialog.find(params[:id]).decorate
+    @phrases = @dialog.phrases.decorate
   end
 end

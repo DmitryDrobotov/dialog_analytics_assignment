@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2018_09_21_152108) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["dialog_id"], name: "index_phrases_on_dialog_id"
+    t.index ["start_in_sec"], name: "index_phrases_on_start_in_sec"
   end
 
   add_foreign_key "phrases", "dialogs"
