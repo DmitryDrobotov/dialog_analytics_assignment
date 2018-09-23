@@ -1,12 +1,6 @@
 class PhraseDecorator < ApplicationDecorator
   delegate_all
 
-  #   def created_at
-  #     helpers.content_tag :span, class: 'time' do
-  #       object.created_at.strftime("%a %m/%d/%y")
-  #     end
-  #   end
-
   def colored_phrase
     klass = if object.interrupted?
       "alert-danger"

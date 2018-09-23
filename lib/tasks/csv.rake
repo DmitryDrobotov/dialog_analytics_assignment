@@ -39,8 +39,10 @@ namespace :csv do
     CSV.foreach(csv_file_path, headers: :first_row, header_converters: :symbol) do |row|
       current_dialog = Dialog.create!(name: row[0]) if current_dialog.name != row[0]
       current_dialog.phrases.create(actor: row[1], start_in_sec: row[2], end_in_sec: row[3], content: row[4])
+      
       putc '.'
     end
+
     puts
   end
 end
