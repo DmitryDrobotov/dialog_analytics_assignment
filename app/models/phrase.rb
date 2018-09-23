@@ -27,4 +27,13 @@ class Phrase < ApplicationRecord
     id = phrase.id - 1
     Phrase.find(id)
   end
+
+  def self.all_actors
+    actors = []
+    Dialog.all.each do |dialog|
+      actors << dialog.phrases.first.actor
+      actors << dialog.phrases.second.actor
+    end
+    actors.uniq!
+  end
 end

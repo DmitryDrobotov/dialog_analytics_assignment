@@ -9,6 +9,10 @@
             <%= f.label :name_cont, 'Name contains' %>
             <%= f.search_field :name_cont, class: 'form-control' %>
           </div>
+          <div class="form-group">
+            <%= f.label :phrases_actor_eq, 'Actor' %>
+            <%= f.select :phrases_actor_eq, options_from_collection_for_select(Phrase.all_actors, :to_s, :to_s),{ include_blank: true }, html_options = {class: 'form-control'} %>
+          </div>
           <%= f.submit class: 'btn btn-primary' %>
         <% end %>
       </div>
