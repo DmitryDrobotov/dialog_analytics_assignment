@@ -8,6 +8,9 @@
           <div class="form-group">
             <%= f.label :name_cont, 'Name contains' %>
             <%= f.search_field :name_cont, class: 'form-control' %>
+
+            <%= f.label :phrases_actor_eq, 'Actor' %>
+            <%= f.select :phrases_actor_eq, Phrase.pluck(:actor).uniq, {include_blank: 'Select All'}, {class: 'form-control'} %>
           </div>
           <%= f.submit class: 'btn btn-primary' %>
         <% end %>
