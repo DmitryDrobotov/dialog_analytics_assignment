@@ -14,6 +14,10 @@ RSpec.describe Phrase, type: :model do
     @phrase.long_break?.should be_falsey
   end
 
+  it "#did_not_have?" do
+    @phrase.did_not_have?.should be_falsey
+  end
+
   it ".all_actors" do
     Phrase.all_actors == ["A"]
   end
