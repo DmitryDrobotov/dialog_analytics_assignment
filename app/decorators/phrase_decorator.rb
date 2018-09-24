@@ -6,6 +6,8 @@ class PhraseDecorator < ApplicationDecorator
       "alert-danger"
     elsif object.long_break?
       "alert-warning"
+    elsif object.did_not_have?
+      "alert-secondary"
     else 
       ""
     end
