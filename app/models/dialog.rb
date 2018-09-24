@@ -18,12 +18,12 @@ class Dialog < ApplicationRecord
     breaks
   end
 
-  def hitching
-    hitching = 0
+  def skipped_phrases
+    skip = 0
     phrases.each do |phrase|
-      hitching += 1 if phrase.did_not_have?
+      skip += 1 if phrase.skipped?
     end
-    hitching
+    skip
   end
 
   def max_long_breaks
@@ -34,7 +34,7 @@ class Dialog < ApplicationRecord
     max_long_breaks
   end
 
-  def max_hitching
+  def max_skipped_phrases
     max_long_breaks
   end
 end

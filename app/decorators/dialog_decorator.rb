@@ -17,11 +17,11 @@ class DialogDecorator < ApplicationDecorator
     "#{interruptions}(#{percentage}%)"
   end
 
-  def hitching
-    hitching = object.hitching
-    max_hitching = object.max_hitching
-    percentage = percentage(hitching, max_hitching)
-    "#{hitching}(#{percentage}%)"
+  def skipped
+    skipped_phrases = object.skipped_phrases
+    max_skipped_phrases = object.max_skipped_phrases
+    percentage = percentage(skipped_phrases, max_skipped_phrases)
+    "#{skipped_phrases}(#{percentage}%)"
   end
 
   def long_breaks

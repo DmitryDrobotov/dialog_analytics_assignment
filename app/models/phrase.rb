@@ -14,7 +14,7 @@ class Phrase < ApplicationRecord
     previous.end_in_sec < start_in_sec - 5 if previous
   end
 
-  def did_not_have?
+  def skipped?
     start_in_sec > end_in_sec
   end
 
