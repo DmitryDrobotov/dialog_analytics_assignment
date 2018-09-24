@@ -1,27 +1,25 @@
 class DialogDecorator < ApplicationDecorator
   delegate_all
 
-  # Define presentation-specific methods here. Helpers are accessed through
-  # `helpers` (aka `h`). You can override attributes, for example:
-  #
-  #   def created_at
-  #     helpers.content_tag :span, class: 'time' do
-  #       object.created_at.strftime("%a %m/%d/%y")
-  #     end
-  #   end
   def duration
-    '00:00:00' # replace with a duration of the dialog
+    Time.at(phrases.last.end_in_sec).utc.strftime("%H:%M:%S")
   end
 
   def total_phrases
-    object.phrases.length
+    phrases.length
   end
 
   def interruptions
-    "2 (10%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    counter = 0
+    array = phrases.map { |x| [x.start_in_sec, x.end_in_sec] }
+    array.each_with_index { |val, i| counter += 1 if array[i + 1] && array[i + 1][0] < val[-1] }
+    counter
   end
 
   def long_breaks
-    "4 (16%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    counter = 0
+    array = phrases.map { |x| [x.start_in_sec, x.end_in_sec] }
+    array.each_with_index { |val, i| counter += 1 if array[i + 1] && array[i + 1][0] - val[-1] >= 5 }
+    counter
   end
 end
