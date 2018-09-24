@@ -10,7 +10,7 @@ class DialogDecorator < ApplicationDecorator
   #     end
   #   end
   def duration
-    '00:00:00' # replace with a duration of the dialog
+    Time.at(phrases.last.end_in_sec).utc.strftime('%H:%M:%S')
   end
 
   def total_phrases
@@ -18,10 +18,19 @@ class DialogDecorator < ApplicationDecorator
   end
 
   def interruptions
-    "2 (10%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    interruptions = []
+    phrases.each_with_index do |_phrase, index|
+      interruptions << phrases[index + 1] if phrases[index + 1].start_in_sec < phrases[index].end_in_sec
+      break if index == phrases.size - 2
+    end
+    interruptions
   end
 
   def long_breaks
-    "4 (16%)" # replace with interruptions count and percentage relatively to the total count of phrases in the dialog
+    breaks = []
+    phrases.each_with_index do |phrase, index|
+      breaks << phrase if phrases[index].start_in_sec - phrases[index - 1].end_in_sec > 5
+    end
+    breaks
   end
 end

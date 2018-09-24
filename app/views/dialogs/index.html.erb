@@ -10,7 +10,8 @@
             <%= f.search_field :name_cont, class: 'form-control' %>
 
             <%= f.label :phrases_actor_eq, 'Actor' %>
-            <%= f.select :phrases_actor_eq, Phrase.pluck(:actor).uniq, {include_blank: 'Select All'}, {class: 'form-control'} %>
+            <%= f.select :phrases_actor_eq, Phrase.pluck(:actor).uniq.sort, {include_blank: 'Select All'},
+                         {class: 'form-control'} %>
           </div>
           <%= f.submit class: 'btn btn-primary' %>
         <% end %>
@@ -35,8 +36,8 @@
             <th scope="row"><%= link_to dialog.name, dialog_path(dialog.id) %></th>
             <td class="text-right"><%= dialog.duration %></td>
             <td class="text-right"><%= dialog.total_phrases %></td>
-            <td class="text-right"><%= dialog.interruptions %></td>
-            <td class="text-right"><%= dialog.long_breaks %></td>
+            <td class="text-right"><%= "#{dialog.interruptions.count} (#{100 / dialog.total_phrases * dialog.interruptions.count}%)" %></td>
+            <td class="text-right"><%= "#{dialog.long_breaks.count} (#{100 / dialog.total_phrases * dialog.long_breaks.count}%)" %></td>
           </tr>
         <% end %>
       </tbody>

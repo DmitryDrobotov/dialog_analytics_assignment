@@ -4,11 +4,21 @@
 
 <div class="row">
   <div class="col-lg-4">
-    Some characteristics go here
+    <dl class="row">
+    <dt class="col-3">Duration</dt>
+      <dd class="col-9"><%= @dialog.duration %></dd>
+    <dt class="col-3">Total phrases</dt>
+      <dd class="col-9"><%= @dialog.total_phrases %></dd>
+    </dl>
   </div>
 
   <div class="col-lg-4">
-    Some characteristics go here
+    <dl class="row">
+      <dt class="col-3">Interruptions</dt>
+        <dd class="col-9"><%= "#{@dialog.interruptions.count} (#{100 / @dialog.total_phrases * @dialog.interruptions.count}%)" %></dd>
+      <dt class="col-3">Long breaks</dt>
+        <dd class="col-9"><%= "#{@dialog.long_breaks.count} (#{100 / @dialog.total_phrases * @dialog.long_breaks.count}%)" %></dd>
+    </dl>
   </div>
 
   <div class="col-lg-4">
@@ -20,7 +30,17 @@
 <hr>
 
 <% @dialog.phrases.each_with_index do |phrase, index| %>
-  <div class="alert" role="alert">
-    <%= phrase.actor %>: <%= phrase.content %>
-  </div>
+  <% if @dialog.long_breaks.include?(phrase) %>
+    <div class="alert alert-warning" role="alert">
+      <%= phrase.actor %>: <%= phrase.content %>
+    </div>
+  <% elsif @dialog.interruptions.include?(phrase) %>
+    <div class="alert alert-danger" role="alert">
+      <%= phrase.actor %>: <%= phrase.content %>
+    </div>
+  <% else %>
+    <div class="alert" role="alert">
+      <%= phrase.actor %>: <%= phrase.content %>
+    </div>
+  <% end %>
 <% end %>
