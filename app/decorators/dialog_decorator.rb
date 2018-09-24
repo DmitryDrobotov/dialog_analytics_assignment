@@ -17,6 +17,13 @@ class DialogDecorator < ApplicationDecorator
     "#{interruptions}(#{percentage}%)"
   end
 
+  def hitching
+    hitching = object.hitching
+    max_hitching = object.max_hitching
+    percentage = percentage(hitching, max_hitching)
+    "#{hitching}(#{percentage}%)"
+  end
+
   def long_breaks
     long_breaks = object.long_breaks
     max_long_breaks = object.max_long_breaks
