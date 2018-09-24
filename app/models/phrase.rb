@@ -1,5 +1,5 @@
 class Phrase < ApplicationRecord
-  belongs_to :dialog
+  belongs_to :dialog, optional: true
 
   validates :actor, presence: true
   validates :start_in_sec, presence: true, numericality: { only_integer: true }
