@@ -24,10 +24,6 @@ class Phrase < ApplicationRecord
 
   private
 
-  def following
-    @following ||= dialog.phrases.where("start_in_sec > ?", start_in_sec).first
-  end
-
   def previous
     @previous ||= dialog.phrases.where("start_in_sec < ?", start_in_sec).last
   end

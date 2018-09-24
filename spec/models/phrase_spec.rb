@@ -1,24 +1,22 @@
 require 'rails_helper'
 
 RSpec.describe Phrase, type: :model do
-  before do
-    @dialog = create(:dialog_with_phrases)
-    @phrase = @dialog.phrases.second
-  end
+  let(:dialog) { create(:dialog_with_phrases) }
+  let(:phrase) { dialog.phrases.second }
   
-  it "#interrupted?" do
-    @phrase.interrupted?.should be_truthy
+  describe "#interrupted?" do
+    it { expect(phrase.interrupted?).to be_truthy }
   end
 
-  it "#long_breaks" do
-    @phrase.long_break?.should be_falsey
+  describe "#long_breaks" do
+    it { expect(phrase.long_break?).to be_falsey }
   end
 
-  it "#did_not_have?" do
-    @phrase.did_not_have?.should be_falsey
+  describe "#did_not_have?" do
+    it { expect(phrase.did_not_have?).to be_falsey }
   end
 
-  it ".all_actors" do
-    Phrase.all_actors == ["A"]
+  describe ".all_actors" do
+    it { expect(Phrase.all_actors).to eq(["A"]) }
   end
 end
