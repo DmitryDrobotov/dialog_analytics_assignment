@@ -36,8 +36,8 @@
             <th scope="row"><%= link_to dialog.name, dialog_path(dialog.id) %></th>
             <td class="text-right"><%= dialog.duration %></td>
             <td class="text-right"><%= dialog.total_phrases %></td>
-            <td class="text-right"><%= "#{dialog.interruptions.count} (#{100 / dialog.total_phrases * dialog.interruptions.count}%)" %></td>
-            <td class="text-right"><%= "#{dialog.long_breaks.count} (#{100 / dialog.total_phrases * dialog.long_breaks.count}%)" %></td>
+            <td class="text-right"><%= dialog.interruptions_stat %></td>
+            <td class="text-right"><%= dialog.long_breaks_stat %></td>
           </tr>
         <% end %>
       </tbody>

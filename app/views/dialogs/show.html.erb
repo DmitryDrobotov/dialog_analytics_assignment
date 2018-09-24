@@ -5,9 +5,9 @@
 <div class="row">
   <div class="col-lg-4">
     <dl class="row">
-    <dt class="col-3">Duration</dt>
+      <dt class="col-3">Duration</dt>
       <dd class="col-9"><%= @dialog.duration %></dd>
-    <dt class="col-3">Total phrases</dt>
+      <dt class="col-3">Total phrases</dt>
       <dd class="col-9"><%= @dialog.total_phrases %></dd>
     </dl>
   </div>
@@ -15,9 +15,9 @@
   <div class="col-lg-4">
     <dl class="row">
       <dt class="col-3">Interruptions</dt>
-        <dd class="col-9"><%= "#{@dialog.interruptions.count} (#{100 / @dialog.total_phrases * @dialog.interruptions.count}%)" %></dd>
+      <dd class="col-9"><%= @dialog.interruptions_stat %></dd>
       <dt class="col-3">Long breaks</dt>
-        <dd class="col-9"><%= "#{@dialog.long_breaks.count} (#{100 / @dialog.total_phrases * @dialog.long_breaks.count}%)" %></dd>
+      <dd class="col-9"><%= @dialog.long_breaks_stat %></dd>
     </dl>
   </div>
 
@@ -30,17 +30,8 @@
 <hr>
 
 <% @dialog.phrases.each_with_index do |phrase, index| %>
-  <% if @dialog.long_breaks.include?(phrase) %>
-    <div class="alert alert-warning" role="alert">
-      <%= phrase.actor %>: <%= phrase.content %>
-    </div>
-  <% elsif @dialog.interruptions.include?(phrase) %>
-    <div class="alert alert-danger" role="alert">
-      <%= phrase.actor %>: <%= phrase.content %>
-    </div>
-  <% else %>
-    <div class="alert" role="alert">
-      <%= phrase.actor %>: <%= phrase.content %>
-    </div>
-  <% end %>
+  <div class="alert <%= class_for(phrase) %> role="alert">
+    <%= phrase.actor %>: <%= phrase.content %>
+  </div>
 <% end %>
+

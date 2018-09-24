@@ -18,19 +18,22 @@ class DialogDecorator < ApplicationDecorator
   end
 
   def interruptions
-    interruptions = []
-    phrases.each_with_index do |_phrase, index|
+    phrases[0..-2].each.with_index.with_object([]) do |(_phrase, index), interruptions|
       interruptions << phrases[index + 1] if phrases[index + 1].start_in_sec < phrases[index].end_in_sec
-      break if index == phrases.size - 2
     end
-    interruptions
   end
 
   def long_breaks
-    breaks = []
-    phrases.each_with_index do |phrase, index|
-      breaks << phrase if phrases[index].start_in_sec - phrases[index - 1].end_in_sec > 5
+    phrases.each.with_index.with_object([]) do |(phrase, index), long_breaks|
+      long_breaks << phrase if phrases[index].start_in_sec - phrases[index - 1].end_in_sec > 5
     end
-    breaks
+  end
+
+  def interruptions_stat
+    "#{interruptions.count} (#{100 / total_phrases * interruptions.count}%)"
+  end
+
+  def long_breaks_stat
+    "#{long_breaks.count} (#{100 / total_phrases * long_breaks.count}%)"
   end
 end
