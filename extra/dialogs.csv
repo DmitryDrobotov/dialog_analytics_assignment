@@ -1,0 +1,713 @@
+dialog_name,phrase_actor,phrase_start_in_sec,phrase_end_in_sec,phrase_content
+Dialog 02,C,2,2,Hey Jack. You look tired. What's going on?
+Dialog 02,D,9,15,It's finals week and I have been up all night studying.
+Dialog 02,C,16,16,How many exams do you have left?
+Dialog 02,D,26,28,Three more to go?
+Dialog 02,C,34,41,"Have you been keeping up, or are you cramming everything?"
+Dialog 02,D,42,47,"If I was keeping up, I wouldn't need to stay up all night."
+Dialog 02,C,49,48,Ha ha ha. Looks like you are in for a tough week.
+Dialog 02,D,58,67,Tell me about it. How about you? What have you been up to?
+Dialog 02,C,65,72,I finished my last final this morning.
+Dialog 02,D,75,82,So you're completely done?
+Dialog 02,C,82,83,"No. I have one more report that is due this Friday. I haven't started it yet, but it shouldn't be too tough."
+Dialog 02,D,90,97,How many pages do you have to write?
+Dialog 02,C,97,96,It's a 10 page paper on habitual behavior for psychology 211.
+Dialog 02,D,107,108,You wanna take one of my exams for me?
+Dialog 02,C,113,112,"I would if I could, but you know that's not possible."
+Dialog 02,D,120,129,"Yeah, I know."
+Dialog 02,C,128,128,"If you need help with your chemistry class, I can help you over the weekend."
+Dialog 02,D,137,141,That would be great.
+Dialog 02,C,146,144,Let's get together Saturday around lunch time.
+Dialog 02,D,153,152,You don't know how much this means to me. Thanks.
+Dialog 02,C,162,166,Don't mention it. I'll see you on Saturday.
+Dialog 12,J,0,6,Where are you guys going for your honeymoon?
+Dialog 12,D,10,14,"We decided on Cancun, Mexico."
+Dialog 12,J,16,27,I've been there before. It's a great place.
+Dialog 12,D,26,32,What did you do there?
+Dialog 12,J,32,41,There is so much to do. It's a big tourist place so there is access to everything.
+Dialog 12,D,40,49,That's good. I'm looking forward to our honeymoon. Especially after all the wedding plans I had to do.
+Dialog 12,J,48,58,How long are you going for?
+Dialog 12,D,56,64,We decided on 6 days. We are leaving on Sunday and returning on Saturday.
+Dialog 12,J,64,70,That should give you plenty of time. Do you have all your travel plans in order?
+Dialog 12,D,73,75,We just booked our flight and got our room. Everything is set.
+Dialog 12,J,83,89,You're going to have so much fun. I'm so jealous.
+Dialog 12,D,89,96,"When you get married, you'll have your chance."
+Dialog 12,J,99,106,I need to find a guy first.
+Dialog 12,D,104,114,Where do you want to go for your honeymoon?
+Dialog 12,J,115,119,"Since I've been to Mexico and Hawaii before, I want to go to Australia."
+Dialog 12,D,120,121,That sounds great. It's a little out of our budget so we didn't even consider Australia.
+Dialog 12,J,129,134,"For the price, Cancun is one of the best so don't have any regrets. It is a great place. So do you have a ride to the airport?"
+Dialog 12,D,137,141,My brother is going to drop us off.
+Dialog 12,J,147,151,Looks like everything is set. Just make sure to take a camera. I know many people who forgot to take a camera on their honeymoon.
+Dialog 12,D,152,162,Will do. Thanks.
+Dialog 16,A,0,0,Yo Matt. How goes it man?
+Dialog 16,B,11,12,Pretty good. What have you been up to?
+Dialog 16,A,18,23,You know that chick in psychology class?
+Dialog 16,B,25,31,Yeah. You only talk about her every other day.
+Dialog 16,A,33,36,I can't get her out of my mind. She is damn fine.
+Dialog 16,B,43,50,Why don't you go talk to her then?
+Dialog 16,A,51,48,I think she is out of my league.
+Dialog 16,B,56,56,Chicken. Somebody is only out of your league if you think so. What do you see in her anyway? She is a little chubby dude.
+Dialog 16,A,66,72,She is not. She has a nice figure. And she has such a pretty face.
+Dialog 16,B,73,76,Whatever. If you think so.
+Dialog 16,A,82,88,You like skinny girls or something?
+Dialog 16,B,88,99,I like normal girls without any flab hanging out.
+Dialog 16,A,98,105,Now you're exaggerating you freak.
+Dialog 16,B,107,108,"Seriously, I like a girl who is fit and likes to exercise."
+Dialog 16,A,115,114,How about personality?
+Dialog 16,B,121,130,It doesn't matter until you are thinking about marriage and I'm not thinking about that yet.
+Dialog 16,A,128,139,"Well, I'm looking so I don't care that much about figure. As long as she is nice and sweet."
+Dialog 05,A,3,6,I'm calling about the available room. Is it still available?
+Dialog 05,B,10,11,Yes it is. Do you know where we're located?
+Dialog 05,A,18,26,Yeah. I drove by this morning and I liked the location. What's the rent?
+Dialog 05,B,27,25,It's $850 a month. So you would pay $425 a month plus half of the bills.
+Dialog 05,A,34,32,How big is the place?
+Dialog 05,B,43,51,"It's a two bedroom, one bath and roughly about 800 square feet."
+Dialog 05,A,51,57,Is the complex pretty quiet? Can you hear a lot of noise or anything like that?
+Dialog 05,B,57,56,They have a strict policy in the apartment complex concerning noise level. So it stays very quiet after 10 PM.
+Dialog 05,A,67,70,Are you the only person who lives there now?
+Dialog 05,B,72,78,Yeah. I'm only looking for one roommate.
+Dialog 05,A,82,84,Everything sounds good. Can we schedule a time to meet so I can look at the place?
+Dialog 05,B,91,90,I'm available anytime today or tomorrow.
+Dialog 05,A,96,102,How about if I come over now?
+Dialog 05,B,105,105,That works with me. But what is your name?
+Dialog 05,A,113,121,"Oh, my name is Brad."
+Dialog 05,B,120,125,Ok. I'm Randy. So I'll see you in a bit?
+Dialog 05,A,131,129,Should only take about 15 minutes to get there.
+Dialog 05,B,136,140,Sounds good.
+Dialog 04,A,0,1,Hi. I'm Sara.
+Dialog 04,J,11,14,My name is Jessica. It's nice to meet you.
+Dialog 04,A,19,24,Yes. It's nice to meet you as well.
+Dialog 04,J,26,30,Have you been here long?
+Dialog 04,A,35,33,I got here about an hour ago. Do you want me to show you around?
+Dialog 04,J,43,49,Yeah. That would be great. The most important is the bathroom right?
+Dialog 04,A,48,53,"Definitely. But we have to share the bathroom with the whole floor. The break room is over there. The bathroom is right across from the break room, and finally, the RA (resident advisor) is in room 315."
+Dialog 04,J,57,58,I'm glad there is a TV in the break room. I like to watch TV.
+Dialog 04,A,64,69,"Me too. So I brought one. I haven't unpacked it yet, but it's a little TV that works."
+Dialog 04,J,72,83,Cool. I brought a refrigerator. I like to store some snacks in there. Feel free to use it.
+Dialog 04,A,83,83,That would be perfect. I think we're going to have a great time.
+Dialog 04,J,88,98,"Do you sleep pretty late, or are you a morning person."
+Dialog 04,A,97,105,"I have never been either. I'm very flexible with sleeping times. Anyways, I'm a deep sleeper so a little noise never bothers me."
+Dialog 04,J,107,110,"That's good to know. I'm usually a night person, but I'm very quiet if my roommate is sleeping."
+Dialog 04,A,115,120,"As long as you don't blast the music while I'm sleeping, I should be fine. Did you eat lunch yet?"
+Dialog 04,J,120,124,No. Is there a cafeteria in the building?
+Dialog 04,A,129,137,Yeah. I'll show you.
+Dialog 10,A,1,11,Hi there. Do you know anyone here?
+Dialog 10,B,9,9,I'm a friend of Stacy.
+Dialog 10,A,18,18,Stacy Miller? I know her.
+Dialog 10,B,26,34,Really? How do you know her?
+Dialog 10,A,34,38,We went to middle school together.
+Dialog 10,B,42,45,That's cool. What a small world.
+Dialog 10,A,51,50,So how do you know Stacy?
+Dialog 10,B,57,67,We went to the same sorority.
+Dialog 10,A,65,66,What did you major in?
+Dialog 10,B,74,82,I majored in Sociology.
+Dialog 10,A,83,83,Really? Me too. That's kinda cool.
+Dialog 10,B,90,89,Where did you go to school?
+Dialog 10,A,96,99,I went to Berkley.
+Dialog 10,B,104,108,So what are you doing here in New York?
+Dialog 10,A,112,115,I work at a consulting firm.
+Dialog 10,B,122,122,Isn't that hard work?
+Dialog 10,A,129,134,"It was in the beginning, but I got used to it. It's a lot of hours though."
+Dialog 10,B,138,136,I bet. I don't like working more than 40 hours. I need time to play.
+Dialog 10,A,145,146,I hear that. I wish I had more time to play. But I do like my job.
+Dialog 10,B,153,157,I think it is important to like your job.
+Dialog 10,A,163,162,I like talking with you.
+Dialog 10,B,168,173,Really? I feel the same way.
+Dialog 10,A,178,182,"Do, you wanna go out sometime, like dinner or something?"
+Dialog 10,B,186,194,"I'd like that. Here, let me give you my number."
+Dialog 07,E,2,11,Hey John. I didn't know you were coming to this school.
+Dialog 07,B,10,12,"Yeah, what a coincidence. It's good to see you."
+Dialog 07,E,17,17,It's been a while hasn't it?
+Dialog 07,B,27,30,What have you been up to?
+Dialog 07,E,34,39,Not much. Just school and stuff.
+Dialog 07,B,42,47,Where are you going now?
+Dialog 07,E,49,53,I'm going to the registration building to see if I can withdrawal from one of my classes.
+Dialog 07,B,57,59,Are you bombing the class or something?
+Dialog 07,E,66,65,"Partially that, but mostly it's a boring class and I am getting nothing out of it."
+Dialog 07,B,72,80,Where are you off to?
+Dialog 07,E,80,81,I finished class for today so I am meeting my girlfriend to watch a movie?
+Dialog 07,B,90,92,What are you watching?
+Dialog 07,E,96,103,The Lord of the Rings. I haven't seen it yet. Have you?
+Dialog 07,B,106,113,"Yeah, I saw that about a month ago. It was really good."
+Dialog 07,E,113,117,Don't tell me anything about it. I don't want to ruin the surprise.
+Dialog 07,B,122,121,"No problem. Hey, what are you doing this weekend?"
+Dialog 07,E,129,132,Nothing really. I was going to rent a video and just hang out at home.
+Dialog 07,B,136,145,My fraternity is going to have a party on Saturday night. Wanna come?
+Dialog 07,E,146,145,"Hey, that sounds like fun. What fraternity are you in?"
+Dialog 07,B,152,157,I'm over at the Delta Fraternity house.
+Dialog 07,E,161,170,Cool. Give me your number and I'll call you Saturday.
+Dialog 07,B,169,175,It's 206-555-1212.
+Dialog 07,E,178,179,Aright. I'll see you on Saturday.
+Dialog 07,B,184,192,See you later.
+Dialog 34,A,1,4,Damn Mark. I never noticed that belly of yours.
+Dialog 34,B,9,10,It's all the beer. I need to start working out again.
+Dialog 34,A,18,16,That reminds me. I should've hit the gym today.
+Dialog 34,B,27,31,Where do you work out?
+Dialog 34,A,35,40,At Bally's. It's pretty close to home so it is convenient.
+Dialog 34,B,43,50,How much are you paying?
+Dialog 34,A,50,52,I only pay 20 bucks a month.
+Dialog 34,B,58,59,That's pretty good. I think I should join.
+Dialog 34,A,66,74,"If you join, we could work out together. It's so much better working out with another person. It's hard to motivate yourself when you are alone."
+Dialog 34,B,73,79,What do you usually do in the gym?
+Dialog 34,A,83,85,"I usually spend about 20 minutes on the step master, and then lift weights for about an hour."
+Dialog 34,B,91,99,Do you go everyday?
+Dialog 34,A,96,100,"No. I try to go 4 times a week, but lately, I've been only going about 2 times a week. That's why I need you there. You should join."
+Dialog 34,B,106,111,Will it help me to get some girls?
+Dialog 34,A,113,121,"If you get rid of that belly of yours, I promise you'll have a better chance with girls. Anyways, there are so many fine chicks working out at the club."
+Dialog 34,B,121,121,Really? I'm signing up tomorrow.
+Dialog 34,A,128,128,There are some girls with tight outfits. You can see the shape of their body and some of them are really fine.
+Dialog 34,B,139,139,"As long as there are some ladies with nice legs, I don't mind."
+Dialog 34,A,145,154,So you're really going to join?
+Dialog 34,B,154,154,Yeah. Let's go in tomorrow and I'll sign up. We can work out together.
+Dialog 34,A,161,160,Cool. Let's go hit some bars to celebrate.
+Dialog 34,B,169,179,I'm down with that.
+Dialog 20,A,0,5,How did you golf on Saturday?
+Dialog 20,J,11,19,I did pretty good. I shot a 13.
+Dialog 20,A,18,24,Not too bad. I thought you were going to break single.
+Dialog 20,J,27,34,"I had a chance. I shot a 4 on the front nine, but the back nine killed me."
+Dialog 20,A,34,34,What happened?
+Dialog 20,J,40,41,"My drive was totally off. All of the sudden, I started hooking the ball. I hit two balls OB, and that killed my score right there."
+Dialog 20,A,51,53,That sucks. You could have broken single if it wasn't for the penalty strokes.
+Dialog 20,J,59,58,"Yeah. I was so frustrated after that hole. But overall, I shot well, so I'm not too disappointed. How about you? How have you been hitting lately?"
+Dialog 20,A,67,71,"I hit great on the range, but when I get on the course, I can't seem to hit the ball right."
+Dialog 20,J,72,72,"That happened to me for the longest time. It just takes time and practice. When you go out on the course more often, that problem will fix itself."
+Dialog 20,A,83,85,I'm still trying to break 90. I've been hitting in the mid nineties for ever.
+Dialog 20,J,89,91,How far does your driver go?
+Dialog 20,A,96,107,I don't use it that much. I use my 3 wood more. I'm not consistent with the driver to use it.
+Dialog 20,J,106,114,You gotta keep practicing with it. Eventually you'll get the hang of it.
+Dialog 20,A,112,113,"Yeah. I practice with it on the range, but I'm not making any progress on it."
+Dialog 20,J,123,122,Let's go to the range together and I'll check out your swing.
+Dialog 20,A,130,129,That sounds good. Let's go tomorrow night.
+Dialog 20,J,136,145,Ok. That will give us practice for our round on Wednesday.
+Dialog 20,A,146,155,I'll meet you there at 6:30.
+Dialog 20,J,155,156,Ok. See you tomorrow then.
+Dialog 33,A,0,4,I can't believe it took you so long to ask me out on a date.
+Dialog 33,B,9,8,"I always thought you liked Mark, so I didn't think I had a chance."
+Dialog 33,A,16,24,"I had this thing about him, but it's over. So, what do you like to do on your free time?"
+Dialog 33,B,27,27,"I like sports, watching movies, reading books. Things like that."
+Dialog 33,A,32,39,What type of movies do you like?
+Dialog 33,B,40,49,I like drama and comedy.
+Dialog 33,A,51,52,Me too. Mostly drama though. Have you seen Pay it forward?
+Dialog 33,B,58,62,Yeah. I loved that movie.
+Dialog 33,A,64,75,It's one of my favorites. I cried so much at the end.
+Dialog 33,B,75,74,I thought the idea of paying it forward was awesome.
+Dialog 33,A,83,82,What was your favorite comedy?
+Dialog 33,B,88,93,Do you remember the Three Amigos?
+Dialog 33,A,98,106,Vaguely. I was pretty little when that came out.
+Dialog 33,B,106,111,"I don't remember it much back then, but I saw it again the other day and it cracked me up."
+Dialog 33,A,114,120,Maybe I need to see that movie again.
+Dialog 33,B,120,131,I think it is a classic. So many funny scenes.
+Dialog 33,A,129,131,I really liked the Mask with Jim Carrey.
+Dialog 33,B,137,137,He is hilarious. I love that guy.
+Dialog 33,A,147,148,I like most of his movies. He is such a character.
+Dialog 33,B,153,162,What else do you like to do?
+Dialog 33,A,162,167,"Well, I like to exercise."
+Dialog 33,B,169,168,Where do you exercise?
+Dialog 33,A,179,182,"I go to a health club by my house. But on a nice day, I like to jog around the lake."
+Dialog 33,B,185,192,That's good. I like to stay in shape too. But I do that by playing a lot of sports. Do you play any sports?
+Dialog 33,A,195,201,"I played a little bit in high school, but nothing really these days."
+Dialog 33,B,201,206,Have you tried golf?
+Dialog 33,A,209,212,"Don't start with that. My dad always nagged at me to play, but I never got into it."
+Dialog 33,B,217,221,What do you usually do with your friends?
+Dialog 33,A,226,234,We go out shopping a lot.
+Dialog 33,B,232,233,Where do you usually go?
+Dialog 33,A,241,240,"Usually downtown. It's more fun in the city than in the mall. Plus, there are too many high school students at the mall."
+Dialog 33,B,250,248,"I know some girls like bags, and some like shoes, what do you like to shop for the most?"
+Dialog 33,A,256,261,"I can never have too many pairs of shoes. I have like 30 pairs already, but I am always shopping for more."
+Dialog 33,B,264,274,Oh. The foods here.
+Dialog 33,A,273,277,Great. I'm so hungry.
+Dialog 33,B,281,280,"After dinner, do you want to catch a movie?"
+Dialog 33,A,289,297,Sure. I'm always up for a good movie.
+Dialog 25,A,3,6,What do you think about Matt's new girlfriend?
+Dialog 25,B,8,15,Samantha? She's pretty hot. I can't believe she fell for Matt.
+Dialog 25,A,18,18,I don't seem to have much luck with girls.
+Dialog 25,B,26,35,Why do you think that is?
+Dialog 25,A,35,42,I say the stupidest things around girls. I don't know why I do that?
+Dialog 25,B,40,49,It's because you're nervous. Best thing to do is not say a word until you know it's not stupid.
+Dialog 25,A,48,54,It doesn't work that way. I stop thinking around pretty girls.
+Dialog 25,B,57,58,I know. You got to date a girl who isn't that pretty then.
+Dialog 25,A,67,72,What the story of your love life these days?
+Dialog 25,B,73,72,It's only been a couple of months that I broke up with Sarah. But I think it's about time to start hunting again.
+Dialog 25,A,82,89,Who's your type?
+Dialog 25,B,91,99,Anybody with a nice body and a pretty face.
+Dialog 25,A,96,97,How about their personality or their character?
+Dialog 25,B,105,104,"I'm not thinking about marriage, so those things don't matter."
+Dialog 25,A,114,116,You're so shallow.
+Dialog 27,A,0,1,What did Mike get you for your birthday Pam?
+Dialog 27,K,11,13,He got me a watch. See.
+Dialog 27,A,18,27,That's beautiful. He must have spent a fortune on it.
+Dialog 27,K,27,25,He's so great. I think he might propose pretty soon.
+Dialog 27,A,32,40,How do you know? Did he give you any clues?
+Dialog 27,K,40,50,"He took me to a jewelry store and asked me what type of rings I like. It was a little obvious, but at least I got to pick the one I wanted."
+Dialog 27,A,50,53,That's not so romantic?
+Dialog 27,K,56,58,"He was never romantic. Silly and cute, but not romantic. I like all his quirkiness. He always makes me laugh."
+Dialog 27,A,65,66,I guess you can't ask for much more than that.
+Dialog 27,K,73,77,How is it going with you and Brad?
+Dialog 27,A,80,84,We broke up a week ago.
+Dialog 27,K,88,94,I'm sorry to hear that. What happened?
+Dialog 27,A,98,105,I think we both just started to grow apart. I wasn't surprised.
+Dialog 27,K,106,110,Are you doing ok?
+Dialog 27,A,114,122,"Actually, I'm feeling great. I guess I needed some freedom."
+Dialog 27,K,123,126,Have you started seeing other guys yet?
+Dialog 27,A,131,128,"Not yet, but I when I meet a decent guy, I wouldn't mind dating again."
+Dialog 27,K,137,146,What kind of guy are you looking for?
+Dialog 27,A,146,150,"Although my relationship with Brad wasn't that bad, I want a guy who likes to go out more. Brad always spent all his time studying and researching for school. It was quite boring."
+Dialog 27,K,155,154,You definitely need a guy who likes to have fun.
+Dialog 27,A,162,167,"I wouldn't mind dating a romantic guy. Maybe I'm dreaming, but a nice walk down the beach, or dancing in the moonlight would be something I would love to do."
+Dialog 27,K,170,168,Hey. There are guys like that. All you have to do is find the right one.
+Dialog 27,A,176,185,"But that's the hard part. I always fall for the guy who is smart. And then after a couple of months, I get bored."
+Dialog 27,K,186,186,"Doesn't a tall, good looking guy turn you on?"
+Dialog 27,A,193,195,Not really. What should I do?
+Dialog 27,K,202,211,We should go to a club this Saturday and find a smart romantic guy. How does that sound?
+Dialog 27,A,211,214,That sounds like a plan. Let's do it.
+Dialog 27,K,219,225,Great. I'll see you at nine then.
+Dialog 27,A,225,227,Ok. See you later.
+Dialog 09,D,2,10,Hi. My name is Robert.
+Dialog 09,C,8,15,I'm John. It's nice to meet you.
+Dialog 09,D,17,27,Do you know what this professor is like?
+Dialog 09,C,24,30,I have no idea. This is my first year.
+Dialog 09,D,34,38,You a freshman? Me too. Where are you from?
+Dialog 09,C,43,49,I'm from San Francisco.
+Dialog 09,D,49,52,I've been there a few times. It's a great city.
+Dialog 09,C,56,57,Where are you from?
+Dialog 09,D,67,73,I grew up in this area all my life.
+Dialog 09,C,73,79,So you know where all the fun places to hang out right?
+Dialog 09,D,82,83,Yeah. The best place is over by the water. They have a lot of clubs and bars.
+Dialog 09,C,91,89,I drove by that area before. I didn't know it was a college hang-out.
+Dialog 09,D,97,96,It gets pretty wild over there sometimes. You should go.
+Dialog 09,C,107,113,Sounds like a good idea. Do you know what you are majoring in yet?
+Dialog 09,D,112,118,"Not yet. I'm leaning towards business, but that's only if I can't get into computer science. How about you?"
+Dialog 09,C,120,128,"I want to go to med school, so I'll probably end up majoring in biology."
+Dialog 09,D,129,129,That's cool.
+Dialog 09,C,138,145,Is the weather this bad all the time in the fall?
+Dialog 09,D,147,147,Yap. This is a typical autumn. It gets worse though. At least it's not raining that much.
+Dialog 09,C,154,163,That sucks.
+Dialog 09,D,161,170,"You'll get used to it. In the meantime, you'll have to watch a lot of movies. Seems like the only thing to do with the bad weather."
+Dialog 09,C,171,177,Too expensive. Can you believe how much movies cost these days?
+Dialog 09,D,177,181,Yeah. It's crazy. It's like 9 bucks a movie. I remember when it was half that.
+Dialog 09,C,187,194,"Unless it's a date, I'm not going to pay that much to watch a movie."
+Dialog 09,D,192,194,That makes sense.
+Dialog 09,C,202,209,Oh. The professor is coming. I'll talk to you later.
+Dialog 09,D,211,208,Aright.
+Dialog 28,D,2,1,Hey Mike. I heard about your break up. You must be devastated.
+Dialog 28,F,11,16,It's more than I can bear. I don't think I can go on.
+Dialog 28,D,16,16,Come on Mike. It's not the end of the world.
+Dialog 28,F,25,31,It's the end of my world. She was everything to me. I loved her so much.
+Dialog 28,D,33,40,I remember my first break up. I remember it was the hardest thing I ever went through. So I know it must be really tough right now.
+Dialog 28,F,43,44,"Every night, I cry myself to sleep. Can you believe that I actually cry everyday?"
+Dialog 28,D,48,50,It's normal to cry. You shouldn't feel bad about it. It's the only way to let it out.
+Dialog 28,F,59,60,How long will I feel like this? How long is the pain going to last?
+Dialog 28,D,64,74,"It's different for everyone, but it took me four months to get over Jessica."
+Dialog 28,F,72,77,Four months... I have to live in hell for four months...
+Dialog 28,D,80,83,But I'm ok now. I moved on and I'm dating other great people. I know you will be better.
+Dialog 28,F,90,90,Why do you think she left me?
+Dialog 28,D,97,102,I really don't know. Some people change and they want to go in different directions.
+Dialog 28,F,107,109,But I loved her so much. I loved her more than anything in this world. She was my world.
+Dialog 28,D,115,119,I know you love her.
+Dialog 28,F,120,122,I don't think I'll be able to love anyone again.
+Dialog 28,D,130,138,I thought that too. I thought Jessica was the only person I would ever love. But it changes. It really does. You'll get better and become a stronger person.
+Dialog 28,F,136,138,I hope so.
+Dialog 22,A,1,4,Hey Cindy. I heard you are seeing someone.
+Dialog 22,B,10,8,Yeah. His name is John. I started dating him a week ago.
+Dialog 22,A,18,26,That's so exciting. Tell me all about him. Is he good looking?
+Dialog 22,B,25,25,"I think he's cute, but not drop dead gorgeous."
+Dialog 22,A,32,39,How did you meet him?
+Dialog 22,B,41,41,"I go to this coffee shop a lot and this guy is always there. We started talking a couple of times, and he finally asked me out."
+Dialog 22,A,51,50,That's so cool. What does he do for a living?
+Dialog 22,B,58,65,He works in the finance department in a manufacturing company.
+Dialog 22,A,67,69,Do you know if he makes a lot of money?
+Dialog 22,B,72,77,"I don't know for sure, but he drives a nice car and I heard he has a house."
+Dialog 22,A,83,86,How is his personality?
+Dialog 22,B,88,89,"He's very smart and a great person to talk to. In the beginning, we talked for about 30 minutes a day in the coffee shop before he asked me out. Besides that, he's very sweet and romantic."
+Dialog 22,A,99,102,How old is he?
+Dialog 22,B,105,113,That's the problem. He is 2 years younger than me. What do you think about that?
+Dialog 22,A,112,112,"What's the big deal? I don't see anything wrong with that. If you were 23, then I might be worried he was immature, but you're almost 30 now. 2 years is no big deal."
+Dialog 22,B,121,130,Yeah. That's what I think.
+Dialog 22,A,130,132,When do I get to meet him?
+Dialog 22,B,137,139,How about a double date. The four of us can go out to dinner and a drink or something.
+Dialog 22,A,144,152,That sounds great. How about next Saturday?
+Dialog 22,B,152,154,I think Saturday will be good. Let's double check with the guys and get back to each other.
+Dialog 22,A,160,171,Great. I'll call you later then.
+Dialog 22,B,169,169,Ok. Talk to you later.
+Dialog 19,A,0,7,What are you watching?
+Dialog 19,B,8,8,A football game. Packers are playing the Chiefs.
+Dialog 19,A,17,16,I never understood this game.
+Dialog 19,B,24,27,"It's not that hard. If you watch a couple of games, you'll start to understand it."
+Dialog 19,A,35,39,Do you watch a lot of football?
+Dialog 19,B,40,50,"I like the Packers, so I watch all their games."
+Dialog 19,A,51,59,Did you play football before?
+Dialog 19,B,59,58,Only in high school. I was too small to play for college.
+Dialog 19,A,64,64,What position did you play?
+Dialog 19,B,74,81,I was the corner back.
+Dialog 19,A,80,89,Is that the main guy in offense?
+Dialog 19,B,88,90,No. That's the quarterback. The corner back is a defensive player covering passing plays and outside running plays.
+Dialog 19,A,96,105,I see. Do you think it is more fun than baseball?
+Dialog 19,B,106,112,It's hard to compare the two because they're so different. I like both baseball and football. How about you? You like baseball a lot?
+Dialog 19,A,115,123,Yeah. I'm a big baseball fan.
+Dialog 19,B,122,120,"Baseball is fun, but you should also learn football. I'll explain as we watch."
+Dialog 19,A,128,135,Cool.
+Dialog 21,A,2,1,Hey Jack. What did you do last weekend?
+Dialog 21,B,9,14,Josh had a bunch of guys over at his house and we played poker.
+Dialog 21,A,17,18,Why didn't you guys call me?
+Dialog 21,B,25,34,"We did. But you weren't home. If you had a cell phone, maybe you wouldn't be left out."
+Dialog 21,A,35,35,"Yeah. I need to get a cell phone. So, what games did you play?"
+Dialog 21,B,41,50,We only play Texas Hold 'em.
+Dialog 21,A,49,57,That's all good. What was the bid amount?
+Dialog 21,B,57,57,We started playing no limit. It's so much fun.
+Dialog 21,A,65,68,That sounds awesome. Let me join you next time.
+Dialog 21,B,74,81,No problem. Just get a cell phone so we can contact you.
+Dialog 21,A,80,83,Aright. Who won though?
+Dialog 21,B,91,99,John. He always wins. He's damn good.
+Dialog 21,A,98,104,You only played one game?
+Dialog 21,B,105,112,We played 2 games and he won both of them.
+Dialog 21,A,113,120,What is the buy in?
+Dialog 21,B,122,131,Only 10 bucks.
+Dialog 21,A,128,131,That sounds fun. Ten bucks isn't that much money to have fun while chilling with your friends.
+Dialog 21,B,137,147,Exactly.
+Dialog 21,A,145,154,But what happens if you get out in the first ten minutes?
+Dialog 21,B,155,154,Then you're screwed. You can watch tv or play the XBOX.
+Dialog 21,A,162,162,"Better not die soon then. So, when is the next time you guys are playing?"
+Dialog 21,B,171,173,Probably this Friday. Give me a call Friday morning and I'll let you know the exact time.
+Dialog 01,A,1,5,Hi. My name is Mark.
+Dialog 01,B,8,15,Mark? I'm Bill. Glad to meet you.
+Dialog 01,A,19,23,Yeah. So where are you from?
+Dialog 01,B,25,32,I'm from Houston Texas.
+Dialog 01,A,34,43,Oh... I'm from Southern California.
+Dialog 01,B,40,41,There must be a lot of cute girls over there huh?
+Dialog 01,A,51,57,Hell yeah. But most of them are hoochies.
+Dialog 01,B,59,63,"That sucks. So, what year are you?"
+Dialog 01,A,64,64,I'm a freshman.
+Dialog 01,B,72,83,This is my first year too.
+Dialog 01,A,80,80,So what made you decide to come to California for school? I hear Austin is a good school.
+Dialog 01,B,89,93,"It's aright, but I think Berkeley is better."
+Dialog 01,A,98,103,So is this where you wanted to come?
+Dialog 01,B,106,109,"To tell you the truth, I wanted to go to Stanford. I made it on the waiting list, but ninety nine percent of the people accepted to Stanford go there. Like, who wouldn't right?"
+Dialog 01,A,114,116,Very true. But this is still a good school.
+Dialog 01,B,121,128,"I'm not complaining. I just know that I wanted to come to California. Texas is cool and all, but I wanted to experience different things."
+Dialog 01,A,129,133,That's good. Do you know what you plan on majoring in?
+Dialog 01,B,139,137,"I was thinking about political science, but now I'm leaning towards English literature. How about you?"
+Dialog 01,A,146,151,I plan on majoring in double E.
+Dialog 01,B,153,159,Do you know where the Smith building is? I have to pick up the syllabus for my psychology class. I missed the first day.
+Dialog 01,A,162,171,That's a great start. It's over there by the library.
+Dialog 01,B,168,179,It was nice meeting you.
+Dialog 01,A,179,177,Yeah. We should hang out later.
+Dialog 01,B,187,193,Cool. I'll see you tomorrow in class then.
+Dialog 01,A,193,199,Aright. Later.
+Dialog 15,J,2,0,Hey Stephanie. Guess what?
+Dialog 15,B,11,11,What?
+Dialog 15,J,18,21,Robert asked me to marry him. We're getting married.
+Dialog 15,B,25,35,Congratulations. I'm so happy for you. So when is the big day?
+Dialog 15,J,33,34,"We haven't set the date exactly, but it looks like it will be sometime in July."
+Dialog 15,B,42,48,How did he propose to you?
+Dialog 15,J,50,49,"On Valentines day, he got me a present. I thought it was an ordinary Valentines day present, but when I opened it, it was this big diamond ring. Right then, he got on his knees and proposed."
+Dialog 15,B,57,61,That's so neat. So you really got surprised?
+Dialog 15,J,66,72,"We talked about marriage a little, but I never knew he was serious."
+Dialog 15,B,73,82,You are going to be busy with wedding plans. But you have several months to prepare for it.
+Dialog 15,J,83,90,"It's going to be pretty hectic for me. So I'm going to need some help. First of all, I was wondering if you would like to be my Maid of Honor."
+Dialog 15,B,90,98,I would be honored.
+Dialog 15,J,96,97,So you're going to help me with the planning right?
+Dialog 15,B,105,115,Of course. How many brides maids are you going to have?
+Dialog 15,J,112,123,Three. So we will have a total of four.
+Dialog 15,B,123,125,"Let me guess. Susan, Tina, and Cindy."
+Dialog 15,J,131,135,Close. I'm going to have Cindy as the candle lighter. The third brides maid is going to be Lydia. She is a good friend from church.
+Dialog 15,B,137,139,I know her. She's sweet. I'll make sure we have the best wedding for you.
+Dialog 15,J,147,151,I hope so. I appreciate your help.
+Dialog 18,A,1,1,Do you know when basketball season starts?
+Dialog 18,K,8,10,It starts in October. How come?
+Dialog 18,A,18,20,I like to keep up with the Lakers.
+Dialog 18,K,26,31,You keep up with baseball at all?
+Dialog 18,A,35,42,Just a little. Not as much as basketball.
+Dialog 18,K,40,40,Who is your favorite player?
+Dialog 18,A,49,56,"Probably Kobe Bryant, but he has too many issues right now."
+Dialog 18,K,57,64,"He's a great player, but his recent problem is really affecting his play."
+Dialog 18,A,65,64,Hope everything turns out ok. Do you play basketball much?
+Dialog 18,K,75,75,I usually get into it during the playoffs. I'd rather play than watch.
+Dialog 18,A,82,84,I like to watch as much as I like to play. Do you play often?
+Dialog 18,K,88,95,Every now and then with some friends.
+Dialog 18,A,96,100,I usually play twice a week at the health club. It's easy to round up 10 guys during the evening time.
+Dialog 18,K,105,111,That sounds pretty fun. But I'm too out of shape to play full court.
+Dialog 18,A,115,121,"I get tired too, but I figure it's good for my health. And I'm having fun at the same time."
+Dialog 18,K,122,124,So you think the Lakers will do good this year?
+Dialog 18,A,128,133,"They better. They got a lot of good players now. If Malone can stay healthy, then I don't see how they can be beat."
+Dialog 18,K,139,146,I don't know... I think Sacramento has a strong team this year.
+Dialog 18,A,146,144,"True, but I'm pulling for the Lakers all the way. It's going to be a great season."
+Dialog 24,A,1,5,Hey Jason. What are you doing this Friday?
+Dialog 24,D,9,11,I'm going to go to the driving range cause I'm playing golf on Saturday.
+Dialog 24,A,17,16,You're golfing without me? What's up with that?
+Dialog 24,D,27,28,"Sorry man, but we already have a foursome. I'm going with a couple of guys from work."
+Dialog 24,A,32,36,Where are you playing?
+Dialog 24,D,41,40,Washington National. Have you been there yet?
+Dialog 24,A,49,58,I've been there a couple of times. It's a great course. You know the Huskies play there right?
+Dialog 24,D,56,64,I didn't know that. Is it a hard course?
+Dialog 24,A,65,66,It's pretty challenging. But it all depends on which tee you play from.
+Dialog 24,D,75,75,What are you shooting these days?
+Dialog 24,A,81,89,I'm still hovering around a bogey game.
+Dialog 24,D,90,94,Still better than me. I'm still trying to hit a bogey game. Do you want to hit the driving range with me?
+Dialog 24,A,99,99,I can't this Friday. I'm playing basketball with the guys that night.
+Dialog 24,D,107,109,At night?
+Dialog 24,A,112,114,Yeah. We're playing indoors at a school gymnasium.
+Dialog 24,D,121,125,What's the occasion?
+Dialog 24,A,131,133,Just a small league I play on. Nothing special.
+Dialog 24,D,137,136,I'm too short to play basketball.
+Dialog 24,A,147,150,"You're not that short. Plus, we have a couple of guys who are the same height as you. They're awesome players."
+Dialog 24,D,155,154,"I never got into basketball. It's fun and all, but maybe I'm just not good at it."
+Dialog 24,A,163,164,It's still great exercise. I get a better workout from basketball than I do from the treadmill.
+Dialog 24,D,170,175,That's true.
+Dialog 23,A,1,6,Jane. Did you see that guy standing by the dance floor?
+Dialog 23,B,11,18,Yeah. He's kinda cute.
+Dialog 23,A,18,22,Wait. Isn't that Beth's boyfriend?
+Dialog 23,B,27,27,I'm not sure. I haven't met him before.
+Dialog 23,A,32,43,Look. He's dancing with another girl.
+Dialog 23,B,43,40,Are you sure that's him?
+Dialog 23,A,51,49,No. It just looks like him.
+Dialog 23,B,57,62,I heard he was a nice guy. He wouldn't be cheating on Beth.
+Dialog 23,A,67,65,Yeah. You're right. How do you know about him if you never met him?
+Dialog 23,B,75,76,I hear all this stuff from Beth. She is always going off on how nice and sweet he is.
+Dialog 23,A,82,85,I heard the same thing. What type of guy are you looking for?
+Dialog 23,B,91,98,"Someone who is understanding, responsible, sensitive, smart, and with a lot of money."
+Dialog 23,A,97,107,Don't we all. Get real. All those guys are probably already taken.
+Dialog 23,B,105,104,It doesn't hurt to have expectations. What type of guy do you want to find?
+Dialog 23,A,114,112,All I want is someone who is going to treat me well.
+Dialog 23,B,122,126,You know Alex don't you? He likes you. I bet he'll take good care of you.
+Dialog 23,A,130,137,He's a dork. At least someone who is not an idiot ok?
+Dialog 23,B,136,140,Got it.
+Dialog 13,K,1,3,Hey Samantha. You've been so busy lately. What have you been up to?
+Dialog 13,B,10,16,Hey Jackie. I started dating this cute guy and decided to start exercising.
+Dialog 13,K,18,24,You're not out of shape. You look fine.
+Dialog 13,B,25,29,"Well, this guy I am seeing is a personal trainer and he has a perfect body. Compared to him, I need some work."
+Dialog 13,K,34,42,How long have you seen him?
+Dialog 13,B,41,47,We've been together for about a month and a half.
+Dialog 13,K,51,51,Did you sleep with him yet?
+Dialog 13,B,56,60,"Not yet. But before I get into bed with him, I want to look fit."
+Dialog 13,K,65,73,"That's not the greatest reason to exercise, but I guess it is a valid one."
+Dialog 13,B,74,82,How about you? Anything new in your life?
+Dialog 13,K,80,80,My father is a little ill. He has been to the doctor's quite a bit lately but they don't know what is wrong with him. He complains about stomach pains a lot these days.
+Dialog 13,B,91,97,I'm sorry to hear that. Any idea what could have caused it?
+Dialog 13,K,98,100,He says it is because he didn't take care of himself when he was young. That's why I want to start thinking about my health.
+Dialog 13,B,107,114,"I think it is important to take care of yourself while you are young too. Even though my reasons are not the best, at least I am working on it."
+Dialog 13,K,115,122,How are your parents doing?
+Dialog 13,B,121,121,They're doing great. I'm thankful that they are healthy.
+Dialog 13,K,129,139,"That's good to hear. Well, I gotta get running now. I'll catch you later."
+Dialog 13,B,139,138,Ok. Send my regards to your father.
+Dialog 13,K,147,148,I will. Thanks.
+Dialog 03,E,2,11,Hi. My name is Jack.
+Dialog 03,F,11,12,Hey Jack. I'm Seth.
+Dialog 03,E,17,26,It's nice to meet you.
+Dialog 03,F,26,25,Looks like we're going to be roommates.
+Dialog 03,E,33,41,Yeah.
+Dialog 03,F,42,50,So where are you from?
+Dialog 03,E,48,59,I'm from Tacoma. How about you?
+Dialog 03,F,57,63,I'm from Ontario.
+Dialog 03,E,66,67,In Canada?
+Dialog 03,F,74,77,No. It's in California. It's a smaller city in southern California.
+Dialog 03,E,82,87,So what made you come here?
+Dialog 03,F,89,96,I wanted to go to a different state.
+Dialog 03,E,97,107,"I see. Hey, if you don't mind, I took this side of the room."
+Dialog 03,F,104,115,No problem. They look the same to me.
+Dialog 03,E,115,116,Are you a morning person or a night person.
+Dialog 03,F,123,125,I'm a night person.
+Dialog 03,E,131,129,That's great. So am I. I like to sleep in the morning.
+Dialog 03,F,136,144,That should work out well then.
+Dialog 31,A,3,9,What are you doing here on the bench? You've been here for an hour.
+Dialog 31,B,8,13,I'm just thinking about Lucy. I can't get her out of my mind. I think I'm falling in love.
+Dialog 31,A,17,23,Crazy boy. You barely know her.
+Dialog 31,B,26,27,"It doesn't matter. I like everything about her. I like the way she talks, the way she walks, her hair and her lips. I would give anything to kiss her."
+Dialog 31,A,33,35,Did you tell her how you feel?
+Dialog 31,B,43,45,No way. I'll scare her away.
+Dialog 31,A,51,52,You won't know until you tell her.
+Dialog 31,B,56,57,"Maybe later. But right now, all I can think about is her legs and her face. She is so beautiful."
+Dialog 31,A,64,73,You're wasting your time. At least talk to her. You don't have to tell her how you feel.
+Dialog 31,B,73,76,Yeah. I started talking to her in my Poly Sci class. I try to sit next to her as much as I can.
+Dialog 31,A,82,83,"That's a start. After awhile, you'll find out if she is everything you make her out to be."
+Dialog 31,B,90,99,It won't matter because I love everything she does.
+Dialog 31,A,97,106,"Dude, you're blind as a bat. You're just infatuated with her."
+Dialog 31,B,106,115,These feelings are too strong to be infatuation.
+Dialog 31,A,114,122,We'll see in a couple of weeks. Let's go grab something to eat. You're human aren't you?
+Dialog 31,B,122,127,"To think of it, I am a little hungry. Ok. Let's go."
+Dialog 26,A,0,7,So Mark. What is your favorite hobby?
+Dialog 26,B,11,17,Probably sports.
+Dialog 26,A,17,17,Anything specific? Or just sports in general.
+Dialog 26,B,27,31,"Most sports. I like basketball, football, baseball, golf, tennis, so I guess most sports."
+Dialog 26,A,35,41,I like tennis. Did you play for your high school team?
+Dialog 26,B,40,46,Yeah. I played on the varsity team starting from my sophomore year. How about you?
+Dialog 26,A,50,50,I played my junior and senior year.
+Dialog 26,B,58,64,What other sports did you play?
+Dialog 26,A,66,74,I played volleyball. I would have to say volleyball is my favorite.
+Dialog 26,B,74,73,What position did you play?
+Dialog 26,A,80,89,I was the outside hitter.
+Dialog 26,B,91,95,That's so cool. I didn't know you were athletic.
+Dialog 26,A,98,104,"I don't know if I would consider myself athletic, but I have fun playing."
+Dialog 26,B,104,110,I play on a co-ed volleyball team every Tuesdays. We're always looking for more girls to play on our team. Would you be interested?
+Dialog 26,A,114,121,Yeah. It sounds fun. Just call me anytime you need a player.
+Dialog 26,B,122,131,"That's great. Since we are on the topic of sports, what sport do you like to watch on television?"
+Dialog 26,A,128,136,I never got into watching sports on TV. So I really don't know.
+Dialog 26,B,137,141,Not even the Super bowl?
+Dialog 26,A,145,151,Only when the group of people I'm with is watching it. I just never had interest in TV that much.
+Dialog 26,B,154,155,"Well, I like following the Mariners. They're pretty good."
+Dialog 26,A,163,160,I like to go watch them play. It's fun when you are actually there.
+Dialog 26,B,171,176,A bunch of us are going to watch them play this June. Do you want to join us?
+Dialog 26,A,178,185,Yeah. I'll go. I like the new stadium. It's pretty cool.
+Dialog 26,B,184,191,Ok. I'll make sure to get you a ticket as well.
+Dialog 30,A,1,2,How are you feeling these days?
+Dialog 30,B,11,16,I don't know. A little bored and restless I guess.
+Dialog 30,A,16,23,Why is that?
+Dialog 30,B,27,34,I have so much time on my hands and I have nothing to do.
+Dialog 30,A,32,38,Why don't you go out and have fun?
+Dialog 30,B,41,45,"I would like to, but I have to save some money so I can't go out all the time."
+Dialog 30,A,50,56,That sucks.
+Dialog 30,B,56,67,"After awhile, I start to feel anxious."
+Dialog 30,A,66,69,Try relaxing and reading a good book. That's always a good way to kill time.
+Dialog 30,B,72,73,That's true. How about you? How are you these days?
+Dialog 30,A,82,86,I'm doing pretty good these days. My kid just finished kindergarten. I'm so proud of him.
+Dialog 30,B,90,91,That's great to hear. He must be big now. It's been a year since I saw your son.
+Dialog 30,A,98,101,Yeah. He grew a lot in the last year.
+Dialog 30,B,105,115,I bet you're very proud of your son.
+Dialog 30,A,115,112,Yes I am. Thanks.
+Dialog 08,D,0,7,You're Jason right?
+Dialog 08,B,10,10,Yeah. Tom right?
+Dialog 08,D,16,16,Yeah. What's going on?
+Dialog 08,B,24,29,Not much. Just hanging out. A bunch of guys are playing a game for shots.
+Dialog 08,D,33,35,You're not playing?
+Dialog 08,B,41,45,I had enough to drink already.
+Dialog 08,D,48,53,I hear ya.
+Dialog 08,B,56,63,You in school or do you work?
+Dialog 08,D,67,73,I work at a marketing company. How about you?
+Dialog 08,B,73,78,I'm still in school. I have one more year left.
+Dialog 08,D,81,88,What are you majoring in?
+Dialog 08,B,89,99,I'm majoring in computer science.
+Dialog 08,D,98,99,Where do you want to work?
+Dialog 08,B,107,115,I would love to work at Microsoft. But it's pretty tough to get in.
+Dialog 08,D,112,118,So I hear. So you come to this club often?
+Dialog 08,B,120,130,Every now and then. I usually hang out at Pioneer Square.
+Dialog 08,D,129,129,Yeah. That's a cool place. There are a ton of bars to hit in that area.
+Dialog 08,B,139,146,Are you here with Mike?
+Dialog 08,D,145,150,No. Some of my work buddies. I haven't seen Mike in a while now. Do you know what he is up to?
+Dialog 08,B,152,158,He's going to grad school.
+Dialog 08,D,160,164,What a surprise. I didn't know he was so studious.
+Dialog 08,B,170,175,"Yeah. Surprised us all. Hey, I'm going to get another drink. You want one?"
+Dialog 08,D,179,183,It's aright. I still have to work on this one.
+Dialog 08,B,186,186,I'll catch you later.
+Dialog 08,D,192,203,Aright man.
+Dialog 32,O,3,8,Hi. Aren't you in my sociology class?
+Dialog 32,B,9,11,I think so. With Professor Robinson right?
+Dialog 32,O,19,18,Yeah. I'm Nicole.
+Dialog 32,B,24,24,I'm George. It's nice to meet you.
+Dialog 32,O,34,42,How are you liking the class so far?
+Dialog 32,B,42,41,I like the subject. I think it's pretty interesting.
+Dialog 32,O,51,49,Me too. But it's hard to sit in class when the weather is so nice.
+Dialog 32,B,56,65,Tell me about it. The weather has been so great lately.
+Dialog 32,O,64,68,"So, what year are you?"
+Dialog 32,B,74,78,I'm a sophomore. How about you?
+Dialog 32,O,80,85,I'm a freshman.
+Dialog 32,B,89,94,Where are you from around here?
+Dialog 32,O,96,98,No. I'm from the east. I grew up in New York.
+Dialog 32,B,105,105,New York? That seems like a fun place.
+Dialog 32,O,113,122,More like a busy place. Everyone is always on the run over there.
+Dialog 32,B,120,122,I grew up in San Francisco.
+Dialog 32,O,130,136,That's not too far from here. Do you like living on the west coast?
+Dialog 32,B,136,147,"I haven't been to many other places, but the west coast is a great place."
+Dialog 32,O,147,148,Yeah. I like it too.
+Dialog 32,B,153,157,Are you ready for the mid term next Friday?
+Dialog 32,O,162,168,"I'm so behind. I've been going out a lot. I'm having so much fun, but I really need to catch up on my school work."
+Dialog 32,B,170,175,Where do you usually hang out?
+Dialog 32,O,178,178,No where specific. We always do different things.
+Dialog 32,B,184,192,Have you been to Alcatraz yet?
+Dialog 32,O,193,199,Not yet. I want to go though.
+Dialog 32,B,200,209,I highly recommend it. It's an interesting place to visit.
+Dialog 32,O,211,211,Maybe you could take me there.
+Dialog 32,B,218,216,"If you get a B or better on your midterm, I'll take you there."
+Dialog 32,O,224,233,Deal. It was great meeting you. I'll talk to you again tomorrow.
+Dialog 32,B,233,232,Ok. See you later.
+Dialog 11,K,2,2,"Hey honey, where do you think we should go for our honeymoon?"
+Dialog 11,L,9,17,I always wanted to go to Mexico. Cancun is supposed to be a great place.
+Dialog 11,K,19,24,That sounds pretty good. But how about the Caribbean?
+Dialog 11,L,24,32,That doesn't sound too bad either. Do you know how much it would cost for airfare and hotel?
+Dialog 11,K,35,43,"If we go for 5 nights, then the total for airfare and hotel would be about one thousand seven hundred dollars. How much would it be to go to Cancun?"
+Dialog 11,L,43,48,I found a deal for only twelve hundred dollars.
+Dialog 11,K,50,50,That's a lot cheaper. Let's go to Cancun then.
+Dialog 11,L,58,67,Really? That sounds great. I picked up a lot of brochures. Let's take a look at all the things we can do.
+Dialog 11,K,67,74,That reminds me. I better make sure my passport is not expired.
+Dialog 11,L,73,75,"You better make sure. If it's expired, you have to hurry and renew it."
+Dialog 11,K,83,84,We still have a couple of months. No rush.
+Dialog 11,L,88,94,What do you want to do in Cancun?
+Dialog 11,K,98,99,I want to golf at least one day. And I also want to try surfing. Do they have instructors on the beach?
+Dialog 11,L,105,111,Yeah. This brochure shows lesson and equipment rentals and everything. That shouldn't be a problem. I want to try snorkeling.
+Dialog 11,K,113,115,Do we need to buy snorkeling gear?
+Dialog 11,L,123,125,No. We can just rent it there.
+Dialog 11,K,128,138,Sounds like we're going to have fun.
+Dialog 11,L,137,142,I know. I can't wait. It's going to be so fun.
+Dialog 29,A,3,7,What are you afraid of?
+Dialog 29,B,8,10,"I'm not sure. I used to be scared of a lot of things when I was young, but not anymore."
+Dialog 29,A,16,20,Are you afraid of death?
+Dialog 29,B,27,31,"Only if I think about it so much. But death is inevitable, so there is no use thinking about it."
+Dialog 29,A,33,42,How about horror movies?
+Dialog 29,B,43,51,No. I know they're all fake so there is nothing to be afraid of. How about you?
+Dialog 29,A,50,50,I get scared pretty easily. I'm actually frightened of bee's.
+Dialog 29,B,56,64,Really? Why?
+Dialog 29,A,66,70,"I don't know. I got stung when I was young and ever since, I've always been afraid of them."
+Dialog 29,B,72,81,What other things are you afraid of?
+Dialog 29,A,82,88,Sitting by the camp fire and telling horror stories is very scary.
+Dialog 29,B,91,89,Wow. You're afraid of many things huh?
+Dialog 29,A,96,105,I guess so. Aren't you afraid of something coming out of the bushes?
+Dialog 29,B,105,114,It's not going to happen. We probably went camping dozens of times and nothing ever came out of the bushes. What makes you think something will?
+Dialog 29,A,114,118,I don't know. I guess I'm terrified at the possibility.
+Dialog 29,B,122,122,"If you were realistic, you probably wouldn't be scared of everything. Maybe you have too much imagination."
+Dialog 29,A,128,128,I should try to think more realistically. I'll do that.
+Dialog 29,B,139,137,"Good. After awhile, you won't be afraid of so many things."
+Dialog 06,H,3,3,Hey Jane. How are you doing?
+Dialog 06,B,9,13,Hi Jack. I'm doing great.
+Dialog 06,H,17,25,I hope you haven't been waiting too long.
+Dialog 06,B,26,26,No. I just got here a few minutes ago.
+Dialog 06,H,33,39,Do you know if smoking is allowed here?
+Dialog 06,B,41,43,I think this is a no-smoking place. Do you want to go somewhere else?
+Dialog 06,H,51,48,That's alright. I don't need to smoke.
+Dialog 06,B,56,66,Why don't you quit?
+Dialog 06,H,67,74,"I never thought about it. All my friends smoke, and we hang out a lot."
+Dialog 06,B,74,82,So do you smoke by yourself?
+Dialog 06,H,81,90,"When I started I didn't, but after a few months I started smoking at home. Usually when I'm bored."
+Dialog 06,B,90,90,Do you smoke cause you're bored?
+Dialog 06,H,99,96,Yeah. It helps to kill the time. I also think it's out of habit. I'm so used to having a cigarette every now and then.
+Dialog 06,B,104,105,How much do you smoke in a day?
+Dialog 06,H,115,112,I smoke about a half pack a day.
+Dialog 06,B,122,123,"Well, I think you should quit. You know it's bad for you?"
+Dialog 06,H,129,129,"I always knew it was bad, but I never thought about it."
+Dialog 06,B,138,137,"You better start thinking about it now. You might not feel the difference now, but after 10 years of smoking, you might feel it and then it will be too late."
+Dialog 06,H,147,148,That's a good point. I'll try to quit.
+Dialog 06,B,155,157,"Good. And if you need any support, I'll always be here for you."
+Dialog 06,H,160,169,Thanks.
+Dialog 17,A,1,10,Do you like to watch baseball?
+Dialog 17,B,8,16,Yeah. I follow the Mariners every year.
+Dialog 17,A,19,20,I wonder how they will do this year.
+Dialog 17,B,27,35,I don't know if they have a chance. Did you hear that A-Rod went to the Yankees?
+Dialog 17,A,34,36,I know. Their team was too good even before getting Alex.
+Dialog 17,B,43,44,Yeah. The richest team is usually the best team. They need to put a salary cap to make things fair.
+Dialog 17,A,48,52,I agree. I don't know why they haven't done so already.
+Dialog 17,B,56,58,"But don't lose hope too soon. The Yankees don't have a good pitching staff this year. They might end up like the Texas Rangers. Great offense, no pitching."
+Dialog 17,A,66,72,"I highly doubt that. Even though they lost Pettite, they still have a decent pitching rotation."
+Dialog 17,B,72,74,We'll see. I hope the Mariners do well this year.
+Dialog 17,A,83,91,"Me too. Oh, did you buy any tickets this year?"
+Dialog 17,B,90,94,"I got a couple of games with Oakland and Boston, but I couldn't get anything with the Yankees."
+Dialog 17,A,99,96,Same here. I went in on the second day and all the tickets with the Yankees were already sold out.
+Dialog 17,B,105,107,There's still plenty of other games though. We should go together one of these days.
+Dialog 17,A,115,122,Sounds good. Let's plan for late June.
+Dialog 14,A,0,3,Wow Billy. Looks like you lost a lot of weight. I could hardly recognize you.
+Dialog 14,O,8,15,Thanks. I've been on a diet for about 6 months. I'm going to ask Rachel to marry me soon and I want to be mentally and physically healthy.
+Dialog 14,A,19,22,"What does being overweight have anything to do with marriage? If you love each other, that's enough right?"
+Dialog 14,O,24,26,"Yeah, but I want to show her how much she means to me, and this is one way of proving it. I am changing for the better."
+Dialog 14,A,33,32,"Good for you. Hey, when do you plan on proposing to her?"
+Dialog 14,O,42,45,I think I am going to propose to her on our 2 year anniversary.
+Dialog 14,A,49,49,"Is she expecting it, or will it be a surprise?"
+Dialog 14,O,56,64,"I think she expects me to ask her one of these days, but not anytime soon."
+Dialog 14,A,67,66,You sure you want to settle down already? You're only 25 years old?
+Dialog 14,O,74,72,"Yeah, I didn't think I would get married until I was 30, but when you know she is the one, why wait."
+Dialog 14,A,80,81,"That's true. Hey, I hope everything works out. You're going to invite me to your wedding right?"
+Dialog 14,O,89,93,Of course man.
+Dialog 14,A,99,106,"Gosh, I'm still shocked how much weight you lost. You're getting real skinny now."
+Dialog 14,O,104,104,"I am working on a six pack now. I have two lines starting to show up. I've been spending a lot of time at the gym. It is hard work, but I feel so good after working out."
+Dialog 14,A,114,121,Where do you work out?
+Dialog 14,O,121,126,I have a membership at Bally's. It's not too expensive and I like all the equipment they have.
+Dialog 14,A,128,138,I've been thinking about joining a gym. Are they having any specials right now?
+Dialog 14,O,136,147,"Yeah, they do. They have free enrollment and first month free. You should come by. I'll show you around. I can take in a guest so you can try it out before signing up."
+Dialog 14,A,145,149,That sounds good. Let's go this Saturday.
+Dialog 14,O,153,160,Cool. I'll call you in the morning.
