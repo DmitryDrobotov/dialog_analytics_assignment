@@ -10,7 +10,10 @@ class DialogDecorator < ApplicationDecorator
   #     end
   #   end
   def duration
-    '00:00:00' # replace with a duration of the dialog
+    # '00:00:00' # replace with a duration of the dialog
+    Time.at(object.phrases.maximum(:end_in_sec)).utc.strftime("%H:%M:%S")
+    # return unless object.previous
+    # object.previous.end_in_sec - object.start_in_sec
   end
 
   def total_phrases

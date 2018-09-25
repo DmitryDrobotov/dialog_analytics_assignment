@@ -20,7 +20,7 @@
 <hr>
 
 <% @dialog.phrases.each_with_index do |phrase, index| %>
-  <div class="alert" role="alert">
+  <div class="alert <%= DialogsHelper.alert_role(phrase.start_in_sec - (phrase.previous.nil? ? 0 : phrase.previous.end_in_sec)) %>" role="alert">
     <%= phrase.actor %>: <%= phrase.content %>
   </div>
 <% end %>

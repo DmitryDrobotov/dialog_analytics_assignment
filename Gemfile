@@ -56,6 +56,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'pry'
+  gem 'dotenv-rails'
 end
 
 group :test do
@@ -68,3 +70,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'nexter'
+# (edge) gem 'nexter', git: 'https://github.com/charly/nexter'
