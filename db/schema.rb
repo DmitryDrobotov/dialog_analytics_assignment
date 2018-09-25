@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_18_212404) do
+ActiveRecord::Schema.define(version: 2018_09_21_152108) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2018_09_18_212404) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_dialogs_on_name", unique: true
   end
 
   create_table "phrases", force: :cascade do |t|
@@ -26,9 +27,10 @@ ActiveRecord::Schema.define(version: 2018_09_18_212404) do
     t.string "actor"
     t.integer "start_in_sec"
     t.integer "end_in_sec"
-    t.string "content", limit: 512
+    t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["dialog_id", "start_in_sec"], name: "index_phrases_on_dialog_id_and_start_in_sec"
     t.index ["dialog_id"], name: "index_phrases_on_dialog_id"
   end
 

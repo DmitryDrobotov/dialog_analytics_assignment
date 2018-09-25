@@ -1,5 +1,3 @@
-<!-- Check http://getbootstrap.com/docs/4.1/getting-started/introduction/ to understand how layout works -->
-
 <div class="row">
   <div class="col-md-3">
     <div class="card mb-4">
@@ -8,6 +6,10 @@
           <div class="form-group">
             <%= f.label :name_cont, 'Name contains' %>
             <%= f.search_field :name_cont, class: 'form-control' %>
+          </div>
+          <div class="form-group">
+            <%= f.label :phrases_actor_eq, 'Actor' %>
+            <%= f.collection_select(:phrases_actor_eq, Phrase.all_actors, :to_s, :to_s,{include_blank: "Select All"}, html_options = {class: 'form-control'})%>
           </div>
           <%= f.submit class: 'btn btn-primary' %>
         <% end %>
@@ -24,6 +26,7 @@
           <th scope="col" class="text-right">Total Phrases</th>
           <th scope="col" class="text-right">Interruptions</th>
           <th scope="col" class="text-right">Long Breaks</th>
+          <th scope="col" class="text-right">Skipped Phrases</th>
         </tr>
       </thead>
       <tbody>
@@ -34,6 +37,7 @@
             <td class="text-right"><%= dialog.total_phrases %></td>
             <td class="text-right"><%= dialog.interruptions %></td>
             <td class="text-right"><%= dialog.long_breaks %></td>
+            <td class="text-right"><%= dialog.skipped %></td>
           </tr>
         <% end %>
       </tbody>

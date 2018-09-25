@@ -5,7 +5,7 @@ class CreatePhrases < ActiveRecord::Migration[5.2]
       t.string :actor
       t.integer :start_in_sec
       t.integer :end_in_sec
-      t.string :content, limit: 512
+      t.string :content
 
       t.timestamps
     end

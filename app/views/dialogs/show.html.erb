@@ -1,26 +1,36 @@
-<!-- Check http://getbootstrap.com/docs/4.1/getting-started/introduction/ to understand how layout works -->
-
 <h2><%= @dialog.name %></h2>
 
 <div class="row">
   <div class="col-lg-4">
-    Some characteristics go here
-  </div>
-
-  <div class="col-lg-4">
-    Some characteristics go here
+    <table class="table">
+      <tr>
+        <td scope="col">Duration</td><td class="text-left"><%= @dialog.duration %></td>
+      </tr>
+      <tr>
+        <td scope="col">Total Phrases</td><td class="text-left"><%=@dialog.phrases.length %></td>
+      </tr>
+      <tr>
+        <td scope="col">Interruptions</td><td class="text-left"><%=@dialog.interruptions %></td>
+      </tr>
+      <tr>
+        <td scope="col">Long breaks</td><td class="text-left"><%=@dialog.long_breaks %></td>
+      </tr>
+      <tr>
+        <td scope="col"> Skipped Phrases</td><td class="text-left"><%=@dialog.skipped %></td>
+      </tr>
+    </table>
+    <hr>
   </div>
 
   <div class="col-lg-4">
     <div class="alert alert-danger" role="alert">This is interruption</div>
     <div class="alert alert-warning" role="alert">This is long break (more than 5 seconds)</div>
-  </div>
+    <div class="alert alert-secondary" role="alert">The phrase ended sooner than began</div>
+    </div>
 </div>
 
 <hr>
 
-<% @dialog.phrases.each_with_index do |phrase, index| %>
-  <div class="alert" role="alert">
-    <%= phrase.actor %>: <%= phrase.content %>
-  </div>
+<% @phrases.each do |phrase| %>
+  <%= phrase.colored_phrase %>
 <% end %>
