@@ -4,11 +4,21 @@
 
 <div class="row">
   <div class="col-lg-4">
-    Some characteristics go here
+    <dl class="row">
+      <dt class="col-3">Duration</dt>
+      <dd class="col-9"><%= @dialog.duration %></dd>
+      <dt class="col-3">Total Phrases</dt>
+      <dd class="col-9"><%= @dialog.total_phrases %></dd>
+    </dl>
   </div>
 
   <div class="col-lg-4">
-    Some characteristics go here
+    <dl class="row">
+      <dt class="col-3">Interruptions</dt>
+      <dd class="col-9"><%= @dialog.interruptions %></dd>
+      <dt class="col-3">Long breaks</dt>
+      <dd class="col-9"><%= @dialog.long_breaks %></dd>
+    </dl>
   </div>
 
   <div class="col-lg-4">
@@ -20,7 +30,7 @@
 <hr>
 
 <% @dialog.phrases.each_with_index do |phrase, index| %>
-  <div class="alert" role="alert">
+  <div class="alert <%= DialogsHelper.alert_role(phrase) %>" role="alert">
     <%= phrase.actor %>: <%= phrase.content %>
   </div>
 <% end %>
